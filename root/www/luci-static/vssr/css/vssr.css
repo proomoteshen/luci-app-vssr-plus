@@ -373,13 +373,13 @@ https://github.com/pure-css/pure/blob/master/LICENSE.md
 
 .cbi-section-table-row {
     position: relative;
-    background: #f4;
+    background: #172b4d;
     margin: 10px !important;
     padding: 18px 18px 18px 104px;
     box-shadow: 0 0 5px 0 rgba(136, 152, 170, .75);
     border-radius: .5rem;
     border: 0;
-    color: #f4;
+    color: #00FFFF;
     text-align: left;
     line-height: 1.7em;
     overflow: hidden;
@@ -393,12 +393,12 @@ https://github.com/pure-css/pure/blob/master/LICENSE.md
 
 .cbi-section-table-row.fast{
     background: #C01818;
-    color: #fff;
+    color: #F5FFFA;
 
 }
 
 .cbi-section-table-row.fast .ssr-button{
-    color: #fff;
+    color: #F5FFFA;
 }
 .cbi-section-table-row.fast .ssr-button:hover,
 .cbi-section-table-row.fast .ssr-button:focus,
@@ -592,7 +592,7 @@ footer.mobile-hide{
     bottom: 0;
     right: 0;
     box-shadow: 0 0 2rem 0 rgba(136,152,170,.3);
-    color: #525f7f;
+    color: #003371;
     background: #f4;
     z-index: 5;
     box-sizing: border-box;
