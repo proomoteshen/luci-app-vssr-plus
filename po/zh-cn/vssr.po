@@ -766,7 +766,7 @@ msgstr "SS服务端"
 
 
 msgid "Trojan SOCKS5 Proxy"
-msgstr "TROJAN SOCKS5代理"
+msgstr "Trojan SOCKS5代理"
 
 msgid "V2SOCKS5 Proxy"
 msgstr "V2ray SOCKS5代理"

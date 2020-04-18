@@ -951,7 +951,7 @@ start_local() {
 		sed -i 's/\\//g' /var/etc/v2-ssr-local.json
 		/usr/bin/v2ray/v2ray -config /var/etc/v2-ssr-local.json >/dev/null 2>&1 &
 		local_enable=3
-	elif [ "$stype" == "trojan" ] ;then
+        elif [ "$stype" == "trojan" ] ;then
 		lua /usr/share/vssr/gentrojanconfig.lua $local_server client $(uci_get_by_type socks5_proxy local_port 1080) >/var/etc/trojan-ssr-local.json
 		sed -i 's/\\//g' /var/etc/trojan-ssr-local.json
 		/usr/sbin/trojan --config /var/etc/trojan-ssr-local.json >/dev/null 2>&1 &
