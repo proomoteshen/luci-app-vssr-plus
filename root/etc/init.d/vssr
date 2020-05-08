@@ -752,7 +752,7 @@ fi
 			elif [ "$ssr_dns" == "7" ]; then
                         microsocks -i 127.0.0.1 -p 10802 ssr-dns >/dev/null 2>&1 &
                         dns2socks 127.0.0.1:10802 $dnsserver:$dnsport 127.0.0.1:5335 -q >/dev/null 2>&1 &
-                        pdnsd_enable_flag=1
+                        dns2socks_enable_flag=1
 		fi
 
 	fi
